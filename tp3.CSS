@@ -1,0 +1,114 @@
+body {
+    background-image: url(img.jpg);
+    background-size: cover;
+    /* tkoun omage compléte */
+}
+
+section {
+
+    width: 400px;
+    background-color:transparent;
+    margin: 300px 600px;
+    border-radius: 20px;
+    padding: 10px; /* espace entre mot et tableau par padding*/
+    border: 2px solid white;
+    backdrop-filter: blur(10px)  ;  
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.classe1{
+    width: 100%;
+    position: relative;
+}
+.classe1 input
+{
+    width: 90%;
+    border-radius: 30px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.classe1 input::placeholder {  /*couleur lektiba eli fel input*/
+    color: white;
+}
+.classe1 i{
+position: absolute; 
+right: 20px;
+top : 25%;
+color: white;
+
+}
+
+
+.classe2 {
+    width: 100%;
+    position: relative;
+}
+
+.classe2 input {
+    width: 90%;
+    border-radius: 30px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.classe2 i{
+    position:absolute;
+    right: 20px;
+    top : 25%;
+    color:white;
+    
+    } 
+.classe2 input::placeholder {  /*couleur lektiba eli fel input*/
+        color: white;
+    }
+.classe3{
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.classe3 a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 90px;
+}
+.classe4{
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+.classe4 button{
+    color:black;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+    width: 100%;
+    border: 2px solid white;
+}
+.classe5{
+    width: 100%;
+    position: relative;
+}
+.classe5 p{
+    color: white;
+    text-align: center;
+}
+.classe5 a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
